@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: auto;
+    background-color: rgb(2, 40, 73);
+}
+h1 {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom:20px;
+    color: bisque; 
+    text-align: center;
+}
+header {
+    width: 100%;
+    height: 400px;
+   background-image: url("./pics/rod-long-I79Pgmhmy5M-unsplash.jpg");
+   background-size: cover;
+}
+header img{
+    width: 100%;
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.button-group{
+    display: flex;
+    gap: 25px;
+}
+.prev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 5px solid orange;
+    font-size: 40px;
+    background-color: bisque;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: backggroud-color 0.3s;
+}
+.prev:hover{
+    background-color: coral;
+}
+.button-group > button {
+    border: 5px solid orange;
+    border-radius: 20px;
+    cursor: pointer;
+    padding:12px 10px ;
+    background-color: bisque;
+    transition: backggroud-color 0.3s;
+}
+.button-group > button:hover{
+    background-color: coral;
+}
+.uk-flag {
+    border-radius: 20px;
+    cursor: pointer;
+    padding:12px 10px ;
+    background-image: url(./pics/uk-flag-svgrepo-com.svg);
+    background-size:cover;
+    width: 60px;
+    cursor: pointer;
+}
+
+.welcome{
+    font-size: 32px;
+    text-align: center;
+    margin-top:40px ;
+    color: orange;
+}
+.select{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    color: bisque;
+}
+
+.items-row {
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+/* .items-row > .item{
+    display: flex;
+    padding: 60px; 
+    border-radius: 60%;
+    margin-block: 10px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    border: 4px solid orange;
+} */
+.items-row > .item {
+    display: flex;
+    border-radius: 60%;
+    margin-block: 10px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    border: 4px solid orange;
+    transition: background-color 0.3s; /* Adding transition for smooth color change */
+}
+
+.items-row > .item:hover {
+    background-color: coral; /* Change background color on hover */
+}
+
+
+.caption > a {
+    text-decoration: none;
+    color: black;
+    
+}
